@@ -1,0 +1,173 @@
+<http://example.org/music/Bringing_It_Down> <http://schema.org/datePublished> "2017"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Moonspell> <http://schema.org/locationCreated> <http://example.org/music/Portugal> .
+<http://example.org/music/Thrice> <http://schema.org/locationCreated> <http://example.org/music/United_States> .
+<http://example.org/music/I_Let_It_In_and_It_Took_Everything> <http://schema.org/track> <http://example.org/music/is_it_really_you> .
+<http://example.org/music/Silos> <http://schema.org/track> <http://example.org/music/Silos> .
+<http://example.org/music/Annihilation> <http://schema.org/byArtist> <http://example.org/music/Starset> .
+<http://example.org/music/Singles> <http://schema.org/track> <http://example.org/music/Annihilation> .
+<http://example.org/music/Moonspell> <http://schema.org/album> <http://example.org/music/Far_From_God> .
+<http://example.org/music/Dark_Things> <http://schema.org/name> "Dark Things"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Thornhill> <http://schema.org/name> "Thornhill"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/screaming> <http://schema.org/name> "screaming"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Loathe> <http://schema.org/genre> <http://example.org/music/Metalcore> .
+<http://example.org/music/Architects> <http://schema.org/name> "Architects"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Portugal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Country> .
+<http://example.org/music/Thrice> <http://schema.org/genre> <http://example.org/music/Post-Hardcore> .
+<http://example.org/music/Australia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Country> .
+<http://example.org/music/Brave_New_World> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/screaming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Far_From_God> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> .
+<http://example.org/music/Loathe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup> .
+<http://example.org/music/two-way_mirror> <http://schema.org/name> "two-way mirror"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/nurture> <http://schema.org/byArtist> <http://example.org/music/Thornhill> .
+<http://example.org/music/Architects> <http://schema.org/locationCreated> <http://example.org/music/United_Kingdom> .
+<http://example.org/music/Singles> <http://schema.org/name> "Singles"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/two-way_mirror> <http://schema.org/datePublished> "2020"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/nurture> <http://schema.org/name> "nurture"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/The_Dark_Pool> <http://schema.org/track> <http://example.org/music/red_summer> .
+<http://example.org/music/Singles> <http://schema.org/track> <http://example.org/music/Paradoxic> .
+<http://example.org/music/Gothic_Metal> <http://schema.org/name> "Gothic Metal"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Thornhill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup> .
+<http://example.org/music/Dark_Things> <http://schema.org/byArtist> <http://example.org/music/Starset> .
+<http://example.org/music/Thornhill> <http://schema.org/genre> <http://example.org/music/Progressive_Metalcore> .
+<http://example.org/music/Australia> <http://schema.org/name> "Australia"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Brave_New_World> <http://schema.org/datePublished> "2024"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/red_summer> <http://schema.org/name> "red summer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Silos> <http://schema.org/track> <http://example.org/music/dystopia> .
+<http://example.org/music/Bringing_It_Down> <http://schema.org/name> "Bringing It Down"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/two-way_mirror> <http://schema.org/byArtist> <http://example.org/music/Loathe> .
+<http://example.org/music/for_the_love_of_mortals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/for_the_love_of_mortals> <http://schema.org/name> "for the love of mortals"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Dark_Things> <http://schema.org/datePublished> "2025"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/nurture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/The_Artist_in_the_Ambulance> <http://schema.org/track> <http://example.org/music/the_arist_in_the_ambulance> .
+<http://example.org/music/Silos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> .
+<http://example.org/music/United_States> <http://schema.org/name> "United States"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/the_arist_in_the_ambulance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Starset> <http://schema.org/name> "Starset"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/melting_point_of_wax> <http://schema.org/name> "melting point of wax"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Thrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup> .
+<http://example.org/music/The_Artist_in_the_Ambulance> <http://schema.org/track> <http://example.org/music/Under_a_Killing_Moon> .
+<http://example.org/music/the_arist_in_the_ambulance> <http://schema.org/byArtist> <http://example.org/music/Thrice> .
+<http://example.org/music/far_from_god> <http://schema.org/name> "far from god"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Starset> <http://schema.org/genre> <http://example.org/music/Alternative_Metal> .
+<http://example.org/music/Annihilation> <http://schema.org/name> "Annihilation"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Paradoxic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Bringing_It_Down> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Starset> <http://schema.org/album> <http://example.org/music/Singles> .
+<http://example.org/music/The_Sky_the_Earth_All_Between> <http://schema.org/track> <http://example.org/music/curse> .
+<http://example.org/music/Far_From_God> <http://schema.org/track> <http://example.org/music/far_from_god> .
+<http://example.org/music/Silos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/United_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Country> .
+<http://example.org/music/is_it_really_you> <http://schema.org/byArtist> <http://example.org/music/Loathe> .
+<http://example.org/music/where_we_go_when_we_die> <http://schema.org/name> "where we go when we die"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Under_a_Killing_Moon> <http://schema.org/datePublished> "2023"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/I_Let_It_In_and_It_Took_Everything> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> .
+<http://example.org/music/Silos> <http://schema.org/byArtist> <http://example.org/music/Starset> .
+<http://example.org/music/the_arist_in_the_ambulance> <http://schema.org/datePublished> "2023"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Paradoxic> <http://schema.org/byArtist> <http://example.org/music/Starset> .
+<http://example.org/music/curse> <http://schema.org/byArtist> <http://example.org/music/Architects> .
+<http://example.org/music/Post-Hardcore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Genre> .
+<http://example.org/music/The_Dark_Pool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> .
+<http://example.org/music/dystopia> <http://schema.org/name> "dystopia"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Bringing_It_Down> <http://schema.org/byArtist> <http://example.org/music/Starset> .
+<http://example.org/music/Broken_Mirror> <http://schema.org/name> "Broken Mirror"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Starset> <http://schema.org/locationCreated> <http://example.org/music/United_States> .
+<http://example.org/music/Silos> <http://schema.org/datePublished> "2025"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/dystopia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Moonspell> <http://schema.org/name> "Moonspell"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Under_a_Killing_Moon> <http://schema.org/name> "Under a Killing Moon"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Silos> <http://schema.org/track> <http://example.org/music/Brave_New_World> .
+<http://example.org/music/chandelier> <http://schema.org/name> "chandelier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Loathe> <http://schema.org/locationCreated> <http://example.org/music/United_Kingdom> .
+<http://example.org/music/Alternative_Metal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Genre> .
+<http://example.org/music/red_summer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Moonspell> <http://schema.org/genre> <http://example.org/music/Gothic_Metal> .
+<http://example.org/music/is_it_really_you> <http://schema.org/name> "is it really you?"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/The_Sky_the_Earth_All_Between> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> .
+<http://example.org/music/is_it_really_you> <http://schema.org/datePublished> "2020"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/where_we_go_when_we_die> <http://schema.org/datePublished> "2019"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Under_a_Killing_Moon> <http://schema.org/byArtist> <http://example.org/music/Thrice> .
+<http://example.org/music/Broken_Mirror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Thrice> <http://schema.org/album> <http://example.org/music/The_Artist_in_the_Ambulance> .
+<http://example.org/music/Progressive_Metalcore> <http://schema.org/name> "Progressive Metalcore"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Silos> <http://schema.org/name> "Silos"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/curse> <http://schema.org/name> "curse"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Architects> <http://schema.org/genre> <http://example.org/music/Metalcore> .
+<http://example.org/music/Thrice> <http://schema.org/name> "Thrice"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Brave_New_World> <http://schema.org/name> "Brave New World"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Far_From_God> <http://schema.org/track> <http://example.org/music/Your_Promise_of_Light> .
+<http://example.org/music/curse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Loathe> <http://schema.org/album> <http://example.org/music/I_Let_It_In_and_It_Took_Everything> .
+<http://example.org/music/Broken_Mirror> <http://schema.org/byArtist> <http://example.org/music/Architects> .
+<http://example.org/music/Annihilation> <http://schema.org/datePublished> "2026"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Your_Promise_of_Light> <http://schema.org/name> "Your Promise of Light"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Your_Promise_of_Light> <http://schema.org/datePublished> "2026"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Loathe> <http://schema.org/name> "Loathe"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Broken_Mirror> <http://schema.org/datePublished> "2025"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Alternative_Metal> <http://schema.org/name> "Alternative Metal"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Singles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> .
+<http://example.org/music/Far_From_God> <http://schema.org/name> "Far From God"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/red_summer> <http://schema.org/datePublished> "2019"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/The_Artist_in_the_Ambulance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> .
+<http://example.org/music/curse> <http://schema.org/datePublished> "2025"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/the_arist_in_the_ambulance> <http://schema.org/name> "the arist in the ambulance"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Architects> <http://schema.org/album> <http://example.org/music/The_Sky_the_Earth_All_Between> .
+<http://example.org/music/United_Kingdom> <http://schema.org/name> "United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/The_Dark_Pool> <http://schema.org/track> <http://example.org/music/where_we_go_when_we_die> .
+<http://example.org/music/The_Dark_Pool> <http://schema.org/track> <http://example.org/music/nurture> .
+<http://example.org/music/chandelier> <http://schema.org/byArtist> <http://example.org/music/Architects> .
+<http://example.org/music/Far_From_God> <http://schema.org/track> <http://example.org/music/for_the_love_of_mortals> .
+<http://example.org/music/Starset> <http://schema.org/album> <http://example.org/music/Silos> .
+<http://example.org/music/Annihilation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/screaming> <http://schema.org/datePublished> "2020"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Starset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup> .
+<http://example.org/music/melting_point_of_wax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/Gothic_Metal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Genre> .
+<http://example.org/music/Your_Promise_of_Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/where_we_go_when_we_die> <http://schema.org/byArtist> <http://example.org/music/Thornhill> .
+<http://example.org/music/far_from_god> <http://schema.org/datePublished> "2026"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Post-Hardcore> <http://schema.org/name> "Post-Hardcore"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/I_Let_It_In_and_It_Took_Everything> <http://schema.org/track> <http://example.org/music/two-way_mirror> .
+<http://example.org/music/Your_Promise_of_Light> <http://schema.org/byArtist> <http://example.org/music/Moonspell> .
+<http://example.org/music/Moonspell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup> .
+<http://example.org/music/screaming> <http://schema.org/byArtist> <http://example.org/music/Loathe> .
+<http://example.org/music/Silos> <http://schema.org/track> <http://example.org/music/Dark_Things> .
+<http://example.org/music/Under_a_Killing_Moon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/The_Sky_the_Earth_All_Between> <http://schema.org/track> <http://example.org/music/chandelier> .
+<http://example.org/music/Metalcore> <http://schema.org/name> "Metalcore"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/dystopia> <http://schema.org/byArtist> <http://example.org/music/Starset> .
+<http://example.org/music/two-way_mirror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/melting_point_of_wax> <http://schema.org/byArtist> <http://example.org/music/Thrice> .
+<http://example.org/music/Singles> <http://schema.org/track> <http://example.org/music/Bringing_It_Down> .
+<http://example.org/music/where_we_go_when_we_die> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/The_Dark_Pool> <http://schema.org/name> "The Dark Pool"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Thornhill> <http://schema.org/locationCreated> <http://example.org/music/Australia> .
+<http://example.org/music/Architects> <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q635041> .
+<http://example.org/music/dystopia> <http://schema.org/datePublished> "2024"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Progressive_Metalcore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Genre> .
+<http://example.org/music/The_Sky_the_Earth_All_Between> <http://schema.org/name> "The Sky, the Earth & All Between"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Portugal> <http://schema.org/name> "Portugal"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/The_Sky_the_Earth_All_Between> <http://schema.org/track> <http://example.org/music/Broken_Mirror> .
+<http://example.org/music/far_from_god> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/I_Let_It_In_and_It_Took_Everything> <http://schema.org/name> "I Let It In and It Took Everything"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Architects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup> .
+<http://example.org/music/United_States> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Country> .
+<http://example.org/music/chandelier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/far_from_god> <http://schema.org/byArtist> <http://example.org/music/Moonspell> .
+<http://example.org/music/Dark_Things> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/for_the_love_of_mortals> <http://schema.org/datePublished> "2026"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/red_summer> <http://schema.org/byArtist> <http://example.org/music/Thornhill> .
+<http://example.org/music/Metalcore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Genre> .
+<http://example.org/music/melting_point_of_wax> <http://schema.org/datePublished> "2023"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Brave_New_World> <http://schema.org/byArtist> <http://example.org/music/Starset> .
+<http://example.org/music/I_Let_It_In_and_It_Took_Everything> <http://schema.org/track> <http://example.org/music/screaming> .
+<http://example.org/music/The_Artist_in_the_Ambulance> <http://schema.org/track> <http://example.org/music/melting_point_of_wax> .
+<http://example.org/music/Thornhill> <http://schema.org/album> <http://example.org/music/The_Dark_Pool> .
+<http://example.org/music/The_Artist_in_the_Ambulance> <http://schema.org/name> "The Artist in the Ambulance"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/Paradoxic> <http://schema.org/name> "Paradoxic"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/music/is_it_really_you> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicRecording> .
+<http://example.org/music/nurture> <http://schema.org/datePublished> "2019"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/Paradoxic> <http://schema.org/datePublished> "2026"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/chandelier> <http://schema.org/datePublished> "2025"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/music/for_the_love_of_mortals> <http://schema.org/byArtist> <http://example.org/music/Moonspell> .

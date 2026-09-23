@@ -1,0 +1,221 @@
+@prefix ex: <http://example.org/music/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alternative_Metal a schema1:Genre ;
+    schema1:name "Alternative Metal"^^xsd:string .
+
+ex:Annihilation a schema1:MusicRecording ;
+    schema1:byArtist ex:Starset ;
+    schema1:datePublished 2026 ;
+    schema1:name "Annihilation"^^xsd:string .
+
+ex:Australia a schema1:Country ;
+    schema1:name "Australia"^^xsd:string .
+
+ex:Brave_New_World a schema1:MusicRecording ;
+    schema1:byArtist ex:Starset ;
+    schema1:datePublished 2024 ;
+    schema1:name "Brave New World"^^xsd:string .
+
+ex:Bringing_It_Down a schema1:MusicRecording ;
+    schema1:byArtist ex:Starset ;
+    schema1:datePublished 2017 ;
+    schema1:name "Bringing It Down"^^xsd:string .
+
+ex:Broken_Mirror a schema1:MusicRecording ;
+    schema1:byArtist ex:Architects ;
+    schema1:datePublished 2025 ;
+    schema1:name "Broken Mirror"^^xsd:string .
+
+ex:Dark_Things a schema1:MusicRecording ;
+    schema1:byArtist ex:Starset ;
+    schema1:datePublished 2025 ;
+    schema1:name "Dark Things"^^xsd:string .
+
+ex:Far_From_God a schema1:MusicAlbum ;
+    schema1:name "Far From God"^^xsd:string ;
+    schema1:track ex:Your_Promise_of_Light,
+        ex:far_from_god,
+        ex:for_the_love_of_mortals .
+
+ex:Gothic_Metal a schema1:Genre ;
+    schema1:name "Gothic Metal"^^xsd:string .
+
+ex:I_Let_It_In_and_It_Took_Everything a schema1:MusicAlbum ;
+    schema1:name "I Let It In and It Took Everything"^^xsd:string ;
+    schema1:track ex:is_it_really_you,
+        ex:screaming,
+        ex:two-way_mirror .
+
+ex:Paradoxic a schema1:MusicRecording ;
+    schema1:byArtist ex:Starset ;
+    schema1:datePublished 2026 ;
+    schema1:name "Paradoxic"^^xsd:string .
+
+ex:Portugal a schema1:Country ;
+    schema1:name "Portugal"^^xsd:string .
+
+ex:Post-Hardcore a schema1:Genre ;
+    schema1:name "Post-Hardcore"^^xsd:string .
+
+ex:Progressive_Metalcore a schema1:Genre ;
+    schema1:name "Progressive Metalcore"^^xsd:string .
+
+ex:Singles a schema1:MusicAlbum ;
+    schema1:name "Singles"^^xsd:string ;
+    schema1:track ex:Annihilation,
+        ex:Bringing_It_Down,
+        ex:Paradoxic .
+
+ex:The_Artist_in_the_Ambulance a schema1:MusicAlbum ;
+    schema1:name "The Artist in the Ambulance"^^xsd:string ;
+    schema1:track ex:Under_a_Killing_Moon,
+        ex:melting_point_of_wax,
+        ex:the_arist_in_the_ambulance .
+
+ex:The_Dark_Pool a schema1:MusicAlbum ;
+    schema1:name "The Dark Pool"^^xsd:string ;
+    schema1:track ex:nurture,
+        ex:red_summer,
+        ex:where_we_go_when_we_die .
+
+ex:The_Sky_the_Earth_All_Between a schema1:MusicAlbum ;
+    schema1:name "The Sky, the Earth & All Between"^^xsd:string ;
+    schema1:track ex:Broken_Mirror,
+        ex:chandelier,
+        ex:curse .
+
+ex:Under_a_Killing_Moon a schema1:MusicRecording ;
+    schema1:byArtist ex:Thrice ;
+    schema1:datePublished 2023 ;
+    schema1:name "Under a Killing Moon"^^xsd:string .
+
+ex:Your_Promise_of_Light a schema1:MusicRecording ;
+    schema1:byArtist ex:Moonspell ;
+    schema1:datePublished 2026 ;
+    schema1:name "Your Promise of Light"^^xsd:string .
+
+ex:chandelier a schema1:MusicRecording ;
+    schema1:byArtist ex:Architects ;
+    schema1:datePublished 2025 ;
+    schema1:name "chandelier"^^xsd:string .
+
+ex:curse a schema1:MusicRecording ;
+    schema1:byArtist ex:Architects ;
+    schema1:datePublished 2025 ;
+    schema1:name "curse"^^xsd:string .
+
+ex:dystopia a schema1:MusicRecording ;
+    schema1:byArtist ex:Starset ;
+    schema1:datePublished 2024 ;
+    schema1:name "dystopia"^^xsd:string .
+
+ex:far_from_god a schema1:MusicRecording ;
+    schema1:byArtist ex:Moonspell ;
+    schema1:datePublished 2026 ;
+    schema1:name "far from god"^^xsd:string .
+
+ex:for_the_love_of_mortals a schema1:MusicRecording ;
+    schema1:byArtist ex:Moonspell ;
+    schema1:datePublished 2026 ;
+    schema1:name "for the love of mortals"^^xsd:string .
+
+ex:is_it_really_you a schema1:MusicRecording ;
+    schema1:byArtist ex:Loathe ;
+    schema1:datePublished 2020 ;
+    schema1:name "is it really you?"^^xsd:string .
+
+ex:melting_point_of_wax a schema1:MusicRecording ;
+    schema1:byArtist ex:Thrice ;
+    schema1:datePublished 2023 ;
+    schema1:name "melting point of wax"^^xsd:string .
+
+ex:nurture a schema1:MusicRecording ;
+    schema1:byArtist ex:Thornhill ;
+    schema1:datePublished 2019 ;
+    schema1:name "nurture"^^xsd:string .
+
+ex:red_summer a schema1:MusicRecording ;
+    schema1:byArtist ex:Thornhill ;
+    schema1:datePublished 2019 ;
+    schema1:name "red summer"^^xsd:string .
+
+ex:screaming a schema1:MusicRecording ;
+    schema1:byArtist ex:Loathe ;
+    schema1:datePublished 2020 ;
+    schema1:name "screaming"^^xsd:string .
+
+ex:the_arist_in_the_ambulance a schema1:MusicRecording ;
+    schema1:byArtist ex:Thrice ;
+    schema1:datePublished 2023 ;
+    schema1:name "the arist in the ambulance"^^xsd:string .
+
+ex:two-way_mirror a schema1:MusicRecording ;
+    schema1:byArtist ex:Loathe ;
+    schema1:datePublished 2020 ;
+    schema1:name "two-way mirror"^^xsd:string .
+
+ex:where_we_go_when_we_die a schema1:MusicRecording ;
+    schema1:byArtist ex:Thornhill ;
+    schema1:datePublished 2019 ;
+    schema1:name "where we go when we die"^^xsd:string .
+
+ex:Metalcore a schema1:Genre ;
+    schema1:name "Metalcore"^^xsd:string .
+
+ex:Silos a schema1:MusicAlbum,
+        schema1:MusicRecording ;
+    schema1:byArtist ex:Starset ;
+    schema1:datePublished 2025 ;
+    schema1:name "Silos"^^xsd:string ;
+    schema1:track ex:Brave_New_World,
+        ex:Dark_Things,
+        ex:Silos,
+        ex:dystopia .
+
+ex:United_Kingdom a schema1:Country ;
+    schema1:name "United Kingdom"^^xsd:string .
+
+ex:United_States a schema1:Country ;
+    schema1:name "United States"^^xsd:string .
+
+ex:Architects a schema1:MusicGroup ;
+    schema1:album ex:The_Sky_the_Earth_All_Between ;
+    schema1:genre ex:Metalcore ;
+    schema1:locationCreated ex:United_Kingdom ;
+    schema1:name "Architects"^^xsd:string ;
+    owl:sameAs <http://www.wikidata.org/entity/Q635041> .
+
+ex:Loathe a schema1:MusicGroup ;
+    schema1:album ex:I_Let_It_In_and_It_Took_Everything ;
+    schema1:genre ex:Metalcore ;
+    schema1:locationCreated ex:United_Kingdom ;
+    schema1:name "Loathe"^^xsd:string .
+
+ex:Moonspell a schema1:MusicGroup ;
+    schema1:album ex:Far_From_God ;
+    schema1:genre ex:Gothic_Metal ;
+    schema1:locationCreated ex:Portugal ;
+    schema1:name "Moonspell"^^xsd:string .
+
+ex:Thornhill a schema1:MusicGroup ;
+    schema1:album ex:The_Dark_Pool ;
+    schema1:genre ex:Progressive_Metalcore ;
+    schema1:locationCreated ex:Australia ;
+    schema1:name "Thornhill"^^xsd:string .
+
+ex:Thrice a schema1:MusicGroup ;
+    schema1:album ex:The_Artist_in_the_Ambulance ;
+    schema1:genre ex:Post-Hardcore ;
+    schema1:locationCreated ex:United_States ;
+    schema1:name "Thrice"^^xsd:string .
+
+ex:Starset a schema1:MusicGroup ;
+    schema1:album ex:Silos,
+        ex:Singles ;
+    schema1:genre ex:Alternative_Metal ;
+    schema1:locationCreated ex:United_States ;
+    schema1:name "Starset"^^xsd:string .
+
