@@ -1,0 +1,1066 @@
+[
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Trier",
+        "context": "Lumian arrives at the city gate of Trier"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Ramayes",
+        "context": "Lumian meets Ramayes at the city gate"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Ramayes",
+        "predicate": "AFFILIATED_TO",
+        "target": "The Cave Association",
+        "context": "Ramayes mentions the Cave Association"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Ramayes",
+        "predicate": "AFFILIATED_TO",
+        "target": "Underground Trier",
+        "context": "Ramayes guides Lumian through Underground Trier"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "267 verl d'or",
+        "context": "Lumian has 267 verl d'or left"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Ramayes",
+        "predicate": "POSSESSES",
+        "target": "3 verl d'or",
+        "context": "Ramayes demands 3 verl d'or from Lumian"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "319 verl d'or",
+        "context": "Lumian has 319 verl d'or after counting the banknotes"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Ramayes",
+        "predicate": "INTERACTED_WITH",
+        "target": "The burly man",
+        "context": "Ramayes and the burly man close in on Lumian"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Ramayes",
+        "context": "Lumian takes the carbide lamp from Ramayes"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Rue à Droite",
+        "context": "Lumian walks through Rue à Droite in Underground Trier"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Rue du Pot de Chambre",
+        "context": "Lumian walks through Rue du Pot de Chambre in Underground Trier"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Rue Anarchie",
+        "context": "Lumian walks through Rue Anarchie in Underground Trier"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "Ramayes",
+        "predicate": "AFFILIATED_TO",
+        "target": "The brass",
+        "context": "Ramayes mentions the brass"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "The brass",
+        "predicate": "AFFILIATED_TO",
+        "target": "City Hall",
+        "context": "The brass is responsible for city renovations"
+    },
+    {
+        "source_file": "chapter110.txt",
+        "subject": "The quarry police",
+        "predicate": "AFFILIATED_TO",
+        "target": "Underground Trier",
+        "context": "The quarry police patrol the quarries in Underground Trier"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "arrived at the inn"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Fels",
+        "context": "checked in at the front desk"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Aurore's grimoires",
+        "context": "found them in his suitcase"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Madam Magician",
+        "context": "summoned her messenger"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Madam Magician's messenger",
+        "context": "communicated with the messenger"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Aurore",
+        "context": "thought about his sister's notebooks"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Guillaume Bénet",
+        "context": "thought about searching for him"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Madame Pualis",
+        "context": "thought about searching for her"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Trier",
+        "context": "arrived in the city"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Rue Anarchie",
+        "context": "walked through the street"
+    },
+    {
+        "source_file": "chapter111.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Cordu",
+        "context": "compared the inn to a tavern in Cordu"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "Lumian visited the Auberge du Coq Doré"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Charlie",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "Charlie visited the Auberge du Coq Doré"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Charlie",
+        "context": "Lumian interacted with Charlie"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Charlie",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Charlie interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Bartender",
+        "context": "Lumian interacted with the bartender"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Bartender",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "The bartender interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "DuVar",
+        "context": "Lumian interacted with DuVar"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "DuVar",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "DuVar interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Saint Viève",
+        "context": "Lumian interacted with Saint Viève"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Saint Viève",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Saint Viève interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "God of Steam and Machinery",
+        "context": "Lumian interacted with the God of Steam and Machinery"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "God of Steam and Machinery",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "The God of Steam and Machinery interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Charlie",
+        "predicate": "INTERACTED_WITH",
+        "target": "Eternal Blazing Sun Church",
+        "context": "Charlie interacted with the Eternal Blazing Sun Church"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Eternal Blazing Sun Church",
+        "predicate": "INTERACTED_WITH",
+        "target": "Charlie",
+        "context": "The Eternal Blazing Sun Church interacted with Charlie"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Reem",
+        "context": "Lumian interacted with Reem"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Reem",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Reem interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Riston Provinces",
+        "context": "Lumian interacted with Riston Provinces"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Riston Provinces",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Riston Provinces interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lenburg",
+        "context": "Lumian interacted with Lenburg"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lenburg",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Lenburg interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Island",
+        "context": "Lumian interacted with the Island"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Island",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "The Island interacted with Lumian"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Triangular Sacred Emblem",
+        "context": "Lumian interacted with the Triangular Sacred Emblem"
+    },
+    {
+        "source_file": "chapter112.txt",
+        "subject": "Triangular Sacred Emblem",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "The Triangular Sacred Emblem interacted with Lumian"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Charlie",
+        "context": "They were at the Auberge du Coq Doré together"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Aurore",
+        "context": "Lumian was concerned about Aurore's income"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Madam Magician",
+        "context": "Madam Magician sent Lumian a letter with instructions"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Osta Trul",
+        "context": "Lumian is tasked with earning Osta Trul's trust"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "Lumian is staying at the inn"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Hôtel du Cygne Blanc",
+        "context": "Charlie works at the hotel"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Mason Café",
+        "context": "Lumian will meet a psychologist at the café"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Catacombs",
+        "context": "Lumian will search for Osta Trul in the catacombs"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Charlie",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "They were at the Auberge du Coq Doré together"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Charlie",
+        "predicate": "VISITED",
+        "target": "Hôtel du Cygne Blanc",
+        "context": "Charlie works at the hotel"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Aurore",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Lumian was concerned about Aurore's income"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Madam Magician",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Madam Magician sent Lumian a letter with instructions"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Lumian is tasked with earning Osta Trul's trust"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Monsieur Ive",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Lumian met Monsieur Ive at the Auberge du Coq Doré"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Mrs. Lakazan",
+        "predicate": "INTERACTED_WITH",
+        "target": "Laurent",
+        "context": "Laurent is Mrs. Lakazan's son"
+    },
+    {
+        "source_file": "chapter113.txt",
+        "subject": "Laurent",
+        "predicate": "INTERACTED_WITH",
+        "target": "Mrs. Lakazan",
+        "context": "Laurent is Mrs. Lakazan's son"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Lumian",
+        "predicate": "AFFILIATED_TO",
+        "target": "Auberge du Coq Doré",
+        "context": "Lumian stays at the inn"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Charlie",
+        "predicate": "AFFILIATED_TO",
+        "target": "Auberge du Coq Doré",
+        "context": "Charlie stays at the inn"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Rue Anarchie",
+        "context": "Lumian explores the street"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Charlie",
+        "predicate": "VISITED",
+        "target": "Rue Anarchie",
+        "context": "Charlie explores the street"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Ruhr",
+        "context": "Lumian confronts Ruhr about selling fake photos"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Michel",
+        "context": "Lumian confronts Michel about selling fake photos"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Ruhr",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Ruhr is confronted by Lumian"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Michel",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Michel is confronted by Lumian"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "verl d’or",
+        "context": "Lumian has money"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Charlie",
+        "predicate": "POSSESSES",
+        "target": "coppet",
+        "context": "Charlie has coins"
+    },
+    {
+        "source_file": "chapter114.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Quartier de l’Observatoire",
+        "context": "Lumian plans to visit the district"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Kendall",
+        "context": "Guided tour"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Osta Trul",
+        "context": "Negotiation"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Place du Purgatoire",
+        "context": "Catacombs entrance"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Trier",
+        "context": "City"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Kendall",
+        "predicate": "INTERACTED_WITH",
+        "target": "Tourists",
+        "context": "Guided tour"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Negotiation"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "KNOWS_ABOUT",
+        "target": "Samaritan Women's Spring",
+        "context": "Legend"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Osta Trul",
+        "predicate": "KNOWS_ABOUT",
+        "target": "Samaritan Women's Spring",
+        "context": "Warlock's knowledge"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Quartier de l'Observatoire",
+        "context": "Neighborhood"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "Inn"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Kendall",
+        "predicate": "INTERACTED_WITH",
+        "target": "Tourists",
+        "context": "Guided tour"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Negotiation"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Cimetière des Innocents",
+        "context": "Cemetery"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Cimetière des Prêtres",
+        "context": "Cemetery"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Osta Trul",
+        "predicate": "KNOWS_ABOUT",
+        "target": "Samaritan Women's Spring",
+        "context": "Warlock's knowledge"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Samaritan Women's Spring",
+        "context": "Legendary spring"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Quartier de l'Observatoire",
+        "context": "Neighborhood"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Negotiation"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "Inn"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Kendall",
+        "predicate": "INTERACTED_WITH",
+        "target": "Tourists",
+        "context": "Guided tour"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Negotiation"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Cimetière des Innocents",
+        "context": "Cemetery"
+    },
+    {
+        "source_file": "chapter115.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Cimetière des Prêtres",
+        "context": "Cemetery"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Osta Trul",
+        "context": "Following Osta from a distance"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Trieriens",
+        "context": "Walking a turtle"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Debt repayment"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Newsstand owner",
+        "context": "Buying newspaper"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Bulle Patil",
+        "context": "Space bridge project"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Debt repayment"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gehrman Sparrow impersonators",
+        "context": "Mentioned as a reference"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Fors Wall",
+        "context": "Mentioned as an author"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Debt repayment"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Osta Trul",
+        "context": "Confronting Osta about debt"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Confronting the gentleman about debt"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Debt repayment"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Newsstand owner",
+        "context": "Buying newspaper"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Bulle Patil",
+        "context": "Space bridge project"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Debt repayment"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gehrman Sparrow impersonators",
+        "context": "Mentioned as a reference"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Fors Wall",
+        "context": "Mentioned as an author"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Debt repayment"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Osta Trul",
+        "context": "Confronting Osta about debt"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Confronting the gentleman about debt"
+    },
+    {
+        "source_file": "chapter116.txt",
+        "subject": "Osta Trul",
+        "predicate": "INTERACTED_WITH",
+        "target": "Gentleman with diamond ring",
+        "context": "Debt repayment"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Osta",
+        "context": "Conversation"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "Bar"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Rue Anarchie",
+        "context": "Street"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Room 207",
+        "context": "Lumian's room"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Room 5",
+        "context": "Anthony Reid's room"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Osta",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Conversation"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Pavard Neeson",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Conversation"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Pavard Neeson",
+        "context": "Conversation"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Le Marché du Quartier du Gentleman",
+        "context": "Market district"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Quartier de l’Observatoire",
+        "context": "Neighborhood"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Underground Trier",
+        "context": "Area"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Catacombs",
+        "context": "Subterranean tunnels"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Trier",
+        "context": "City"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Cordu",
+        "context": "Village"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Hunter’s Spirit Vision",
+        "context": "Mystical ability"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Summoning Dance",
+        "context": "Mystical ability"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Osta",
+        "predicate": "POSSESSES",
+        "target": "Secrets Suppliant",
+        "context": "Mystical pathway"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Dancer",
+        "predicate": "POSSESSES",
+        "target": "Sequence 9",
+        "context": "Equivalent of Sequence 9"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Bluish-black symbol",
+        "context": "Mystical symbol"
+    },
+    {
+        "source_file": "chapter118.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Black thorn pattern",
+        "context": "Mystical symbol"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Charlie",
+        "context": "Conversed with Charlie in the washroom"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Lumian",
+        "predicate": "INTERACTED_WITH",
+        "target": "Anthony Reid",
+        "context": "Visited Anthony Reid in Room 5"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Lumian",
+        "predicate": "VISITED",
+        "target": "Auberge du Coq Doré",
+        "context": "Went to Auberge du Coq Doré to meet Anthony Reid"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Fallen Mercury",
+        "context": "Carried Fallen Mercury"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Aurore's notebook",
+        "context": "Had Aurore's notebook"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Pathways",
+        "context": "Knew about Pathways"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Lumian",
+        "predicate": "POSSESSES",
+        "target": "Sequences",
+        "context": "Knew about Sequences"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Charlie",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Conversed with Lumian in the washroom"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Anthony Reid",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Met with Lumian in Room 5"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Cordu Village",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Lumian lived in Cordu Village"
+    },
+    {
+        "source_file": "chapter119.txt",
+        "subject": "Rue Anarchie",
+        "predicate": "INTERACTED_WITH",
+        "target": "Lumian",
+        "context": "Lumian spent time on Rue Anarchie"
+    }
+]

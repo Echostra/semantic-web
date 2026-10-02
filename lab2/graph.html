@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "white"}, "group": 0, "id": "Lumian", "label": "Lumian", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Trier", "label": "Trier", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 1, "id": "Ramayes", "label": "Ramayes", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 0, "id": "267 verl d\u0027or", "label": "267 verl d\u0027or", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "319 verl d\u0027or", "label": "319 verl d\u0027or", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Rue \u00e0 Droite", "label": "Rue \u00e0 Droite", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Rue du Pot de Chambre", "label": "Rue du Pot de Chambre", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 3, "id": "Rue Anarchie", "label": "Rue Anarchie", "shape": "dot", "size": 10, "title": "Community 3"}, {"font": {"color": "white"}, "group": 3, "id": "Auberge du Coq Dor\u00e9", "label": "Auberge du Coq Dor\u00e9", "shape": "dot", "size": 10, "title": "Community 3"}, {"font": {"color": "white"}, "group": 0, "id": "Fels", "label": "Fels", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Aurore\u0027s grimoires", "label": "Aurore\u0027s grimoires", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Madam Magician", "label": "Madam Magician", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Madam Magician\u0027s messenger", "label": "Madam Magician\u0027s messenger", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Aurore", "label": "Aurore", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Guillaume B\u00e9net", "label": "Guillaume B\u00e9net", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Madame Pualis", "label": "Madame Pualis", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Cordu", "label": "Cordu", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 3, "id": "Charlie", "label": "Charlie", "shape": "dot", "size": 10, "title": "Community 3"}, {"font": {"color": "white"}, "group": 0, "id": "Bartender", "label": "Bartender", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "DuVar", "label": "DuVar", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Saint Vi\u00e8ve", "label": "Saint Vi\u00e8ve", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "God of Steam and Machinery", "label": "God of Steam and Machinery", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Reem", "label": "Reem", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Riston Provinces", "label": "Riston Provinces", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Lenburg", "label": "Lenburg", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Island", "label": "Island", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Triangular Sacred Emblem", "label": "Triangular Sacred Emblem", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 5, "id": "Osta Trul", "label": "Osta Trul", "shape": "dot", "size": 10, "title": "Community 5"}, {"font": {"color": "white"}, "group": 3, "id": "H\u00f4tel du Cygne Blanc", "label": "H\u00f4tel du Cygne Blanc", "shape": "dot", "size": 10, "title": "Community 3"}, {"font": {"color": "white"}, "group": 0, "id": "Mason Caf\u00e9", "label": "Mason Caf\u00e9", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Catacombs", "label": "Catacombs", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Monsieur Ive", "label": "Monsieur Ive", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Ruhr", "label": "Ruhr", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Michel", "label": "Michel", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "verl d\u2019or", "label": "verl d\u2019or", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Quartier de l\u2019Observatoire", "label": "Quartier de l\u2019Observatoire", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 7, "id": "Kendall", "label": "Kendall", "shape": "dot", "size": 10, "title": "Community 7"}, {"font": {"color": "white"}, "group": 0, "id": "Place du Purgatoire", "label": "Place du Purgatoire", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 5, "id": "Samaritan Women\u0027s Spring", "label": "Samaritan Women\u0027s Spring", "shape": "dot", "size": 10, "title": "Community 5"}, {"font": {"color": "white"}, "group": 0, "id": "Quartier de l\u0027Observatoire", "label": "Quartier de l\u0027Observatoire", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Cimeti\u00e8re des Innocents", "label": "Cimeti\u00e8re des Innocents", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Cimeti\u00e8re des Pr\u00eatres", "label": "Cimeti\u00e8re des Pr\u00eatres", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Trieriens", "label": "Trieriens", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Newsstand owner", "label": "Newsstand owner", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Bulle Patil", "label": "Bulle Patil", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Gehrman Sparrow impersonators", "label": "Gehrman Sparrow impersonators", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Fors Wall", "label": "Fors Wall", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 5, "id": "Gentleman with diamond ring", "label": "Gentleman with diamond ring", "shape": "dot", "size": 10, "title": "Community 5"}, {"font": {"color": "white"}, "group": 2, "id": "Osta", "label": "Osta", "shape": "dot", "size": 10, "title": "Community 2"}, {"font": {"color": "white"}, "group": 0, "id": "Room 207", "label": "Room 207", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Room 5", "label": "Room 5", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Pavard Neeson", "label": "Pavard Neeson", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Le March\u00e9 du Quartier du Gentleman", "label": "Le March\u00e9 du Quartier du Gentleman", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 1, "id": "Underground Trier", "label": "Underground Trier", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 0, "id": "Hunter\u2019s Spirit Vision", "label": "Hunter\u2019s Spirit Vision", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Summoning Dance", "label": "Summoning Dance", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Bluish-black symbol", "label": "Bluish-black symbol", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Black thorn pattern", "label": "Black thorn pattern", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Anthony Reid", "label": "Anthony Reid", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Fallen Mercury", "label": "Fallen Mercury", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Aurore\u0027s notebook", "label": "Aurore\u0027s notebook", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Pathways", "label": "Pathways", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Sequences", "label": "Sequences", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 0, "id": "Cordu Village", "label": "Cordu Village", "shape": "dot", "size": 10, "title": "Community 0"}, {"font": {"color": "white"}, "group": 1, "id": "The Cave Association", "label": "The Cave Association", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 1, "id": "3 verl d\u0027or", "label": "3 verl d\u0027or", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 1, "id": "The burly man", "label": "The burly man", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 1, "id": "The brass", "label": "The brass", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 1, "id": "The quarry police", "label": "The quarry police", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 1, "id": "City Hall", "label": "City Hall", "shape": "dot", "size": 10, "title": "Community 1"}, {"font": {"color": "white"}, "group": 3, "id": "Eternal Blazing Sun Church", "label": "Eternal Blazing Sun Church", "shape": "dot", "size": 10, "title": "Community 3"}, {"font": {"color": "white"}, "group": 3, "id": "coppet", "label": "coppet", "shape": "dot", "size": 10, "title": "Community 3"}, {"font": {"color": "white"}, "group": 6, "id": "Mrs. Lakazan", "label": "Mrs. Lakazan", "shape": "dot", "size": 10, "title": "Community 6"}, {"font": {"color": "white"}, "group": 6, "id": "Laurent", "label": "Laurent", "shape": "dot", "size": 10, "title": "Community 6"}, {"font": {"color": "white"}, "group": 7, "id": "Tourists", "label": "Tourists", "shape": "dot", "size": 10, "title": "Community 7"}, {"font": {"color": "white"}, "group": 2, "id": "Secrets Suppliant", "label": "Secrets Suppliant", "shape": "dot", "size": 10, "title": "Community 2"}, {"font": {"color": "white"}, "group": 4, "id": "Dancer", "label": "Dancer", "shape": "dot", "size": 10, "title": "Community 4"}, {"font": {"color": "white"}, "group": 4, "id": "Sequence 9", "label": "Sequence 9", "shape": "dot", "size": 10, "title": "Community 4"}]);
+                  edges = new vis.DataSet([{"from": "Lumian", "label": "VISITED", "title": "City", "to": "Trier", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Lumian takes the carbide lamp from Ramayes", "to": "Ramayes", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Lumian has 267 verl d\u0027or left", "to": "267 verl d\u0027or", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Lumian has 319 verl d\u0027or after counting the banknotes", "to": "319 verl d\u0027or", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Lumian walks through Rue \u00e0 Droite in Underground Trier", "to": "Rue \u00e0 Droite", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Lumian walks through Rue du Pot de Chambre in Underground Trier", "to": "Rue du Pot de Chambre", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Lumian spent time on Rue Anarchie", "to": "Rue Anarchie", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Went to Auberge du Coq Dor\u00e9 to meet Anthony Reid", "to": "Auberge du Coq Dor\u00e9", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "checked in at the front desk", "to": "Fels", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "found them in his suitcase", "to": "Aurore\u0027s grimoires", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Madam Magician sent Lumian a letter with instructions", "to": "Madam Magician", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "communicated with the messenger", "to": "Madam Magician\u0027s messenger", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Lumian was concerned about Aurore\u0027s income", "to": "Aurore", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "thought about searching for him", "to": "Guillaume B\u00e9net", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "thought about searching for her", "to": "Madame Pualis", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Village", "to": "Cordu", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Conversed with Lumian in the washroom", "to": "Charlie", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "The bartender interacted with Lumian", "to": "Bartender", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "DuVar interacted with Lumian", "to": "DuVar", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Saint Vi\u00e8ve interacted with Lumian", "to": "Saint Vi\u00e8ve", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "The God of Steam and Machinery interacted with Lumian", "to": "God of Steam and Machinery", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Reem interacted with Lumian", "to": "Reem", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Riston Provinces interacted with Lumian", "to": "Riston Provinces", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Lenburg interacted with Lumian", "to": "Lenburg", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "The Island interacted with Lumian", "to": "Island", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "The Triangular Sacred Emblem interacted with Lumian", "to": "Triangular Sacred Emblem", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Confronting Osta about debt", "to": "Osta Trul", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Charlie works at the hotel", "to": "H\u00f4tel du Cygne Blanc", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Lumian will meet a psychologist at the caf\u00e9", "to": "Mason Caf\u00e9", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Subterranean tunnels", "to": "Catacombs", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Lumian met Monsieur Ive at the Auberge du Coq Dor\u00e9", "to": "Monsieur Ive", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Ruhr is confronted by Lumian", "to": "Ruhr", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Michel is confronted by Lumian", "to": "Michel", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Lumian has money", "to": "verl d\u2019or", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Neighborhood", "to": "Quartier de l\u2019Observatoire", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Guided tour", "to": "Kendall", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Catacombs entrance", "to": "Place du Purgatoire", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Legendary spring", "to": "Samaritan Women\u0027s Spring", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Neighborhood", "to": "Quartier de l\u0027Observatoire", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Cemetery", "to": "Cimeti\u00e8re des Innocents", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Cemetery", "to": "Cimeti\u00e8re des Pr\u00eatres", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Walking a turtle", "to": "Trieriens", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Buying newspaper", "to": "Newsstand owner", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Space bridge project", "to": "Bulle Patil", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Mentioned as a reference", "to": "Gehrman Sparrow impersonators", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Mentioned as an author", "to": "Fors Wall", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Confronting the gentleman about debt", "to": "Gentleman with diamond ring", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Conversation", "to": "Osta", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Lumian\u0027s room", "to": "Room 207", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Anthony Reid\u0027s room", "to": "Room 5", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Conversation", "to": "Pavard Neeson", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Market district", "to": "Le March\u00e9 du Quartier du Gentleman", "width": 1}, {"from": "Lumian", "label": "VISITED", "title": "Area", "to": "Underground Trier", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Mystical ability", "to": "Hunter\u2019s Spirit Vision", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Mystical ability", "to": "Summoning Dance", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Mystical symbol", "to": "Bluish-black symbol", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Mystical symbol", "to": "Black thorn pattern", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Met with Lumian in Room 5", "to": "Anthony Reid", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Carried Fallen Mercury", "to": "Fallen Mercury", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Had Aurore\u0027s notebook", "to": "Aurore\u0027s notebook", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Knew about Pathways", "to": "Pathways", "width": 1}, {"from": "Lumian", "label": "POSSESSES", "title": "Knew about Sequences", "to": "Sequences", "width": 1}, {"from": "Lumian", "label": "INTERACTED_WITH", "title": "Lumian lived in Cordu Village", "to": "Cordu Village", "width": 1}, {"from": "Ramayes", "label": "AFFILIATED_TO", "title": "Ramayes mentions the Cave Association", "to": "The Cave Association", "width": 1}, {"from": "Ramayes", "label": "AFFILIATED_TO", "title": "Ramayes guides Lumian through Underground Trier", "to": "Underground Trier", "width": 1}, {"from": "Ramayes", "label": "POSSESSES", "title": "Ramayes demands 3 verl d\u0027or from Lumian", "to": "3 verl d\u0027or", "width": 1}, {"from": "Ramayes", "label": "INTERACTED_WITH", "title": "Ramayes and the burly man close in on Lumian", "to": "The burly man", "width": 1}, {"from": "Ramayes", "label": "AFFILIATED_TO", "title": "Ramayes mentions the brass", "to": "The brass", "width": 1}, {"from": "Underground Trier", "label": "AFFILIATED_TO", "title": "The quarry police patrol the quarries in Underground Trier", "to": "The quarry police", "width": 1}, {"from": "Rue Anarchie", "label": "VISITED", "title": "Charlie explores the street", "to": "Charlie", "width": 1}, {"from": "The brass", "label": "AFFILIATED_TO", "title": "The brass is responsible for city renovations", "to": "City Hall", "width": 1}, {"from": "Auberge du Coq Dor\u00e9", "label": "AFFILIATED_TO", "title": "Charlie stays at the inn", "to": "Charlie", "width": 1}, {"from": "Charlie", "label": "INTERACTED_WITH", "title": "The Eternal Blazing Sun Church interacted with Charlie", "to": "Eternal Blazing Sun Church", "width": 1}, {"from": "Charlie", "label": "VISITED", "title": "Charlie works at the hotel", "to": "H\u00f4tel du Cygne Blanc", "width": 1}, {"from": "Charlie", "label": "POSSESSES", "title": "Charlie has coins", "to": "coppet", "width": 1}, {"from": "Osta Trul", "label": "KNOWS_ABOUT", "title": "Warlock\u0027s knowledge", "to": "Samaritan Women\u0027s Spring", "width": 1}, {"from": "Osta Trul", "label": "INTERACTED_WITH", "title": "Debt repayment", "to": "Gentleman with diamond ring", "width": 1}, {"from": "Mrs. Lakazan", "label": "INTERACTED_WITH", "title": "Laurent is Mrs. Lakazan\u0027s son", "to": "Laurent", "width": 1}, {"from": "Kendall", "label": "INTERACTED_WITH", "title": "Guided tour", "to": "Tourists", "width": 1}, {"from": "Osta", "label": "POSSESSES", "title": "Mystical pathway", "to": "Secrets Suppliant", "width": 1}, {"from": "Dancer", "label": "POSSESSES", "title": "Equivalent of Sequence 9", "to": "Sequence 9", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
