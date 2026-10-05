@@ -1,0 +1,11 @@
+SELECT ?region ?regionLabel (COUNT(?item) AS ?cnt) WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q8502 ;
+        wdt:P17 wd:Q40 ;
+        wdt:P131 ?region .
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,uk". }
+}
+GROUP BY ?region ?regionLabel
+HAVING (COUNT(?item) >= 3)
+ORDER BY DESC(?cnt) ?region
+LIMIT 10
