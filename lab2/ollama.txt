@@ -1,4 +1,4 @@
-Були викорситані такі моделі:
+Були використані такі моделі:
 
 ollama pull llama3.1
 ollama pull nomic-embed-text
