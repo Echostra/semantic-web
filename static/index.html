@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edinburgh Guide - Semantic Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Edinburgh <span class="accent">Guide</span></h1>
+    <p>Explore the History, Architecture, and Sights via Open Linked Data</p>
+</header>
+
+<main>
+    <section id="intro" class="container">
+        <h2>About Edinburgh</h2>
+        <p id="intro-text">Loading city information from Wikipedia API...</p>
+        <button id="read-more-btn" class="wiki-btn hidden" style="border: none; cursor: pointer;">Read more</button>
+    </section>
+
+    <section id="timeline-section" class="container">
+        <h2>Timeline of Historic Sites</h2>
+        <div id="timeline-container" class="timeline">
+            <p>Loading historical events from Wikidata...</p>
+        </div>
+    </section>
+
+    <section id="sights-section" class="container">
+        <h2>Discover Sights</h2>
+        <div id="sights-container" class="grid-container">
+            <p>Loading semantic data from Wikidata...</p>
+        </div>
+    </section>
+</main>
+
+<div id="sight-modal" class="modal hidden">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modal-title">Sight Name</h2>
+        <p id="modal-desc">Description goes here.</p>
+        <a id="modal-link" href="#" target="_blank" class="wiki-btn hidden">Read more on Wikipedia</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
